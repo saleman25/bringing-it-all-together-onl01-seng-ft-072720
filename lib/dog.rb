@@ -10,8 +10,8 @@ end
 
 def self.create_table 
   sql = <<-SQL 
-  CREATE TABLE dog (name, breed)
-  VALUE (?, ?)
+  CREATE TABLE dog (
+  id PRIMARY INDEX)
   
 end 
 
