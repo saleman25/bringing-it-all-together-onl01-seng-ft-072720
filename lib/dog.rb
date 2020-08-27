@@ -37,7 +37,9 @@ end
   self
 end 
 
-def self.create 
+def self.create(name:, breed:) 
+  dog = Dog.new(name, breed)
+  
   
 end 
 
