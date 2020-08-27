@@ -24,6 +24,7 @@ def self.drop_table
 end 
 
 def save 
+  
 end 
 
 def self.create 
