@@ -9,6 +9,7 @@ def initialize(id: nil, name:, breed:)
 end 
 
 def self.create_table 
+  
 end 
 
 def self.drop_table
