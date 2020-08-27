@@ -50,7 +50,8 @@ def self.new_from_db(row)
   self.new(id: id, name: name, breed: breed)
 end 
 
-def self.find_by_id 
+def self.find_by_id
+  
 end 
 
 def self.find_or_create_by(name:, breed:)
