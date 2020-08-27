@@ -43,6 +43,10 @@ def self.create(name:, breed:)
   dog
 end 
 
+def self.new_from_db
+  
+
+
 def self.find_by_id 
 end 
 
